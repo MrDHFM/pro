@@ -1,0 +1,120 @@
+.footer {
+  background: #151514;
+}
+.footer .x {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footerLeft {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.footerLeft .footerLogo img {
+  width: 150px;
+  height: 150px;
+  flex-shrink: 0;
+}
+.footerLeft .footerText {
+  color: #fff;
+  width: 450px;
+  font-family: Archivo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.iconGrid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footerRight svg {
+  width: 125px;
+  height: 125px;
+  flex-shrink: 0;
+  margin-right: 50px;
+}
+
+.footerRight .iconText {
+  color: #fff;
+}
+
+.linkSection {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  margin-top: 2%;
+  margin-left: 8%;
+  padding: 1%;
+}
+
+.linkSection a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Archivo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer .x {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footerLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .footerLeft .footerLogo img {
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+  }
+  .footerLeft .footerText {
+    color: #fff;
+    width: 293px;
+    font-family: Archivo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .footerRight svg {
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+    flex-shrink: 0;
+  }
+
+  .iconGrid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .iconGridItem {
+    width: 300px;
+    display: flex;
+    align-items: center;
+  }
+
+  .footerRight .iconText {
+    color: #fff;
+  }
+
+  .linkSection {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 8%;
+    padding: 1%;
+  }
+}
